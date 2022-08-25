@@ -1,60 +1,48 @@
-title: 상오의 기술블로그
-author: GitHub User
-email: isoh1212@gmail.com
-description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-show_excerpts: true # set to true to show excerpts on the homepage
+# Setup
+title: Dark Poole
+url: https://getpoole.com
+paginate: 1
+baseurl: ""
+permalink: pretty
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
 sass:
   sass_dir: _sass
-plainwhite:
-  name: Sangoh Im
-  tagline: Developer. Data Engineering
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  search: true # set to true to enable searchbar
-  dark_mode: true # set to true to add dark mode toggle
-  portfolio_image: "assets/gummo&goopi.jpg" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-  condensed_mobile:
-    #- home
-    - page
-    - post
-  # generate social links in footer
-  social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-    #email: jekyll
+  style: :compressed
 
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+# Options
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
 
-# Build settings
-theme: plainwhite
+# Specify the author for blog posts
+author:
+  name: Mark Otto
+  url: https://twitter.com/mdo
+  email: markdotto@gmail.com
 
-plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: Blog
+    url: /archive
+
+  - title: About
+    url: /about
