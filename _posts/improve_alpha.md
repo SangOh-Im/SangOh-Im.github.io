@@ -1,3 +1,5 @@
+이 글은 https://support.worldquantbrain.com/hc/en-us/community/posts/8123350778391-How-do-you-get-a-higher-Sharpe-?_gl=1*1y7xi9w*_ga*MTUyMTEwMDgwOS4xNjc5NDk1MTYz*_ga_9RN6WVT1K1*MTY4MjkwMzQ1Ny4xMC4xLjE2ODI5MDU3MDkuNDguMC4w*_ga_FXKNEPLB1N*MTY4MjkwMzQ1Ny4xMC4xLjE2ODI5MDU3MDkuMC4wLjA. 를 번역한 글입니다.
+
 이 일반적인 질문에 대한 정답은 없는 경우가 많으므로 먼저 샤프 또는 관련 지표인 정보 비율(IR)을 이해하는 것이 좋습니다.
 
 IR = 수익률 / 표준 편차(수익률)
